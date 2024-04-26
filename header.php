@@ -3,13 +3,13 @@
 		<i class="fa fa-bars" aria-hidden="true" onclick="menu()"></i>
 	</div>
 	<div class="header_c1">
-		<a href="https://posthysterectomywellness.com">
-			<img src="img/logo.jpg" alt="logo" title="logo">
+		<a href="#">
+			<img src="img/logo.png" alt="logo" title="logo">
 		</a>
 	</div>
 	<div class="header_c2">
 		<ul>
-			<li><a href="https://posthysterectomywellness.com">Home</a></li>
+			<li><a href="index.php">Home</a></li>
 			<li><a href="about-us.php">About</a></li>
 			<li><a href="silent-cost-of-hysterectomy.php">Risks of Hysterectomy</a></li>
 			<li><a href="risk-factor-assessment.php">Online Consultation</a></li>
@@ -21,7 +21,7 @@
 		<table>
 			<tr>
 				<td><i class="fa fa-phone" aria-hidden="true"></i></td>
-				<td>Have any Question? <br><span><a href="tel:+919758253472"> +91 9758253472</a></span></td>
+				<td>Have any Question? <br><span><a href="tel:+919758253472"> +91 7013425092</a></span></td>
 			</tr>
 		</table>
 	</div>

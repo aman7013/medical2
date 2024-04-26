@@ -74,6 +74,7 @@
 }
 </script>
 <body>
+  <div class="container"> 
 <?php include 'header.php';?>
 
 <!-- Start WOWSlider.com BODY section --> <!-- add to the <body> of your page -->
@@ -81,10 +82,10 @@
 <div id="wowslider-container1" style=" z-index: 0;">
 	<div class="ws_images">
 		<ul>
-			<li><img src="data1/images/slider1.jpg" alt="Post hysterectomy wellness" title="Post hysterectomy wellness" id="wows1_0"></li>
-			<li><img src="data1/images/slider2.jpg" alt="Post hysterectomy wellness" title="Post hysterectomy wellness" id="wows1_1"></li>
-			<li><img src="data1/images/slider3.jpg" alt="Post hysterectomy wellness" title="Post hysterectomy wellness" id="wows1_2"></li>
-			<li><img src="data1/images/slider4.jpg" alt="Post hysterectomy wellness" title="Post hysterectomy wellness" id="wows1_3"></li>
+			<li><img src="data1/images/slider1.jpg" alt="medical" title="medical" id="wows1_0"></li>
+			<li><img src="data1/images/slider2.jpg" alt="medical" title="medical" id="wows1_1"></li>
+			<li><img src="data1/images/slider3.jpg" alt="medical" title="medical" id="wows1_2"></li>
+			<li><img src="data1/images/slider1.jpg" alt="medical" title="medical" id="wows1_3"></li>
 		</ul>
 	</div>
 </div>	
@@ -134,8 +135,8 @@
 </div>
 <div class="course">
 	<div class="course_c0">
-	<h2 style="font-size:32px; margin-bottom: 24px; color:#00A384;">Our integrative approach for prevention, correction and risk factor reduction</h2>	
-  <p><span style="font-size:24px; background-color: #00A384; color: white; padding: 8px; ">The fivefold way</span>
+	<h2 style="font-size:32px; margin-bottom: 24px; color:#E14E3F;">Our integrative approach for prevention, correction and risk factor reduction</h2>	
+  <p><span style="font-size:24px; background-color: #E14E3F; color: white; padding: 8px; ">The fivefold way</span>
               </p>
 		<p style="font-size:24px; color:black">Ayurveda+ Gynaecology+ Naturopathy+ Yoga+ Nutrition</p>
 		
@@ -422,5 +423,7 @@ window.onload = function() {
 
 
 <?php include 'footer.php';?>
+
+</div>
 </body>
 </html>

@@ -22,9 +22,35 @@ p, input[type=text], select, textarea, label, td
 	font-family: 'Mulish', sans-serif;
 	
 }
+
+
+
+::-webkit-scrollbar {
+        width:20px;
+      }
+
+      ::-webkit-scrollbar-track {
+        background:#E14E3F;
+      }
+
+      ::-webkit-scrollbar-thumb {
+        background: black;
+      }
+
+      ::-webkit-scrollbar-thumb:hover {
+        background:white;
+        cursor: pointer;
+      }
+
+
+.container
+{
+	max-width: 1420px;
+	margin: auto;
+}
 .button
 {
-	background-color: #00A384;
+	background-color: #FAF6F2;
 	color:white;
 	padding-left: 12px;
 	padding-right: 12px;
@@ -34,8 +60,8 @@ p, input[type=text], select, textarea, label, td
 }
 .button-1
 {
-	border:2px solid #00A384;
-	color:#00A384;
+	border:2px solid #FAF6F2;
+	color:#FAF6F2;
 	padding-left: 12px;
 	padding-right: 12px;
 	padding-top: 8px;
@@ -77,6 +103,8 @@ p, input[type=text], select, textarea, label, td
 {
 	z-index: 1;
 	position: absolute;
+	border-bottom-right-radius:150px;
+	border-bottom-left-radius:150px;
 	
 }
 .header_c2
@@ -93,15 +121,17 @@ p, input[type=text], select, textarea, label, td
 }
 .header_c3 a
 {
-color:#00A384 ;
+color:#E14E3F ;
 }
 .header_c4
 {
 	flex:10%;
-	background-color: #171A11;
+	background-color: #E14E3F;
 	color: white;
 	padding-top: 1%;
 	padding-bottom: 1%;
+	border-top-left-radius:40px;
+	border-bottom-left-radius:40px;
 }
 .header_c2 ul
 {
@@ -127,13 +157,13 @@ color:#00A384 ;
 .header_c3 i
 {
 	font-size: 36px;
-	color: #00A384;
+	color: #E14E3F;
 }
 .header_c3 span
 {
 	font-size: 18px;
 	font-weight: 600;
-	color: #00A384;
+	color:#E14E3F;
 }
 .header_c4 p
 {
@@ -176,7 +206,7 @@ color:#00A384 ;
 }
 .mobile ul li:hover
 {
-	background-color: #00A384;
+	background-color: #E14E3F;
 	color: white;
 	padding-left: 8px;
 
@@ -189,7 +219,7 @@ color:#00A384 ;
 }
 .mobile h6
 {
-	background-color: #00A384;
+	background-color:#E14E3F;
 	padding: 8px;
 	color: white;
 	font-size: 18px;
@@ -243,7 +273,7 @@ color:#00A384 ;
 }
 .intro_c1 h1
 {
-	color: #00A384;
+	color:#E14E3F;
 	margin-bottom: 5px;
 }
 .intro_c1 p
@@ -319,7 +349,7 @@ color:#00A384 ;
 }
 .course_c0 h2
 {
-	color: #00A384;
+	color:#E14E3F;
 	margin-bottom: 5px;
 	font-size: 28px;
 }
@@ -329,7 +359,7 @@ color:#00A384 ;
 }
 .course_c1 h2
 {
-	color: #00A384;
+	color:#E14E3F;
 	margin-bottom: 5px;
 }
 
@@ -429,11 +459,11 @@ color:#00A384 ;
 	text-align: center;
 	box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 	background-color: white;
-	border-bottom: 1px dotted #00A384;
+	border-bottom: 1px dotted #E14E3F;
 }
 .problem_c0 h2
 {
-	color: #00A384;
+	color: #E14E3F;
 	margin-bottom: 5px;
 	font-size: 28px;
 }
@@ -554,7 +584,7 @@ color:#00A384 ;
 .founder_c2 h1
 {
 	font-size: 48px;
-	color: #00A384;
+	color: #E14E3F;
 	margin-bottom: 8px;
 }
 .founder_c2 h2
@@ -590,7 +620,7 @@ color:#00A384 ;
 .vission_c1 h2
 {
 	font-size: 36px;
-	color: #00A384;
+	color: #E14E3F;
 	margin-bottom: 7px;
 }
 .vission_c1 p
@@ -628,7 +658,7 @@ color:#00A384 ;
 .con_c1 h2
 {
 	font-size: 18px;
-	color: #00A384;
+	color:#E14E3F;
 }
 .abc
 {
@@ -700,7 +730,7 @@ color:#00A384 ;
 .video_c0 h2
 {
 	text-align: center;
-	color: #00A384;
+	color: #E14E3F;
 }
 .phw
 {
@@ -737,7 +767,7 @@ color:#00A384 ;
 {
 	font-size: 36px;
 	margin-bottom: 5px;
-	color: #00A384;
+	color:#E14E3F;
 }
 .phw_c1 p
 {
@@ -754,7 +784,7 @@ color:#00A384 ;
 	font-size: 28px;
 	margin-top: 5px;
 	margin-bottom: 5px;
-	color: #00A384;
+	color:#E14E3F;
 }
 .phw_c3 p
 {
@@ -853,7 +883,7 @@ color:#00A384 ;
 {
 	font-size: 28px;
 	margin-bottom: 8px;
-	color: #00A384;
+	color:#E14E3F;
 }
 .fact_c1 p
 {
@@ -882,7 +912,7 @@ color:#00A384 ;
 {
 	font-size: 28px;
 	margin-bottom: 8px;
-	color: #00A384;
+	color:#E14E3F;
 }
 .indi_c1 p
 {
@@ -921,7 +951,7 @@ color:#00A384 ;
 .type_c1 h3
 {
 	font-size: 24px;
-	color: #00A384;
+	color:#E14E3F;
 	margin-bottom: 5px;
 }
 .type_c1 p
@@ -956,7 +986,7 @@ color:#00A384 ;
 {
 	text-align: center;
 	margin-bottom: 5px;
-	color: #00A384;
+	color:#E14E3F;
 	font-size: 18px;
 }
 .ayurveda_c1 p
@@ -1010,7 +1040,7 @@ color:#00A384 ;
 {
 	font-size: 18px;
 	margin-bottom: 5px;
-	color: #00A384;
+	color:#E14E3F;
 }
 .ayur_box_c1 p
 {
@@ -1026,7 +1056,7 @@ color:#00A384 ;
 	font-size: 18px;
 	margin-bottom: 5px;
 	margin-top: 5px;
-	color: #00A384;
+	color:#E14E3F;
 }
 .ayur_box_c2 p
 {
@@ -1049,7 +1079,7 @@ color:#00A384 ;
 	font-size: 18px;
 	margin-bottom: 5px;
 	margin-top: 5px;
-	color: #00A384;
+	color:#E14E3F;
 }
 .ayur_box_c4 p
 {
@@ -1237,7 +1267,12 @@ img.hover-shadow {
 }
 
 @media all and (max-width : 480px) {
-	
+	 
+	 .container
+{
+	max-width:  480px;
+	margin: auto;
+}
 	.column
 	{
 		width:100%;
@@ -1275,7 +1310,7 @@ img.hover-shadow {
 .slider_c1 h2
 {
 	font-size: 48px;
-	color: #00A384;
+	color:#E14E3F;
 	margin-bottom: 5px;
 	margin-top: 45px;
 }
@@ -1314,11 +1349,11 @@ img.hover-shadow {
 {
 	font-size: 36px;
 	margin-bottom: 0;
-	color: #00A384;
+	color:#E14E3F;
 }
 .contact_c2 h2
 {
-	color: #00A384; 
+	color: #E14E3F; 
 	margin-bottom: 5px;
 }
 .contact_c2 p
@@ -1337,14 +1372,14 @@ img.hover-shadow {
 .contact_c2 i
 {
 	font-size: 28px;
-	border: 1px solid #00A384;
+	border: 1px solid #FAF6F2;
 	padding: 8px;
-	color: #00A384;
+	color: #FAF6F2;
 	
 }
 .contact_c2 span
 {
-	color: #00A384;
+	color: #FAF6F2;
 	font-weight: bold;
 	font-family: 'Mulish', sans-serif;
 }
@@ -1422,7 +1457,7 @@ margin-bottom: 5px;
 
 .testimonial span
 {
-color:#00A384;
+color:#FAF6F2;
 }
 
 .testim .wrap 
@@ -2071,7 +2106,7 @@ border-radius:5px;
 .footer  h2
 {
 	font-size: 20px;
-	color: #00A384;
+	color: #FAF6F2;
 }
 .footer  p
 {
@@ -2097,13 +2132,13 @@ border-radius:5px;
 {
 	
 	font-size: 16px;
-	color: #00A384;
+	color: #FAF6F2;
 }
 .footer_c3 i
 {
 	
 	font-size: 16px;
-	color: #00A384;
+	color: #FAF6F2;
 }
 .footer_c4 i
 {
@@ -2224,7 +2259,7 @@ border-radius:5px;
 	}
 	.header_c0 i
 	{
-		color: #00A384;
+		color:#FAF6F2;
 	}
 	.header_c1
 	{
